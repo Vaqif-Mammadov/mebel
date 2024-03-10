@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #887358;
+    width: 100%;
+    padding: 10px 30px;
+
+}
+.navbar {
+    width: 25%;
+    position: relative;
+}
+.nav {
+    width: 50%;
+}
+.navbar2 {
+    width: 25%;
+    position: relative;
+}
+.navbar2 i {
+    font-size: 30px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+.navbar p {
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    color: #e0ccab;
+    font-size: 25px;
+    left: 0;
+    bottom: 0;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+
+}
+.navbar2 img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li {
+    margin-left: 25px;
+    font-size: 20px;
+}
+.nav a {
+    color: #e1d1bd;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#first {
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+#first h1 {
+    color: #dfcbaa;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#first p {
+    color: #dfcbaa;
+    font-size: 16px;
+    font-style: italic;
+
+}
+#first .text {
+    width: 40%;
+    display: inline-block;
+    padding-top: 200px;
+}
+#second {
+    text-align: center;
+
+}
+.s-top {
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    display: inline-block;
+}
+#second h2 {
+    font-style: italic;
+}
+#second p {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.s-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s-bot .card {
+    border: 1px solid #dfcbaa;
+    border-radius: 5%;
+    overflow: hidden;
+    width: 20%;
+    margin: 15px;
+    position: relative;
+}
+.card img {
+    width: 100%;
+}
+.card i {
+    padding: 10px;
+    position: absolute;
+    background-color: #dfcbaa;
+    border-radius: 50%;
+    right: 10px;
+    top: 5px;
+}
+.card i:hover {
+    background-color: red;
+    color: #fff;
+}
+.card ul {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card button {
+    border: none;
+    background-color: #383735;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card a {
+    color: #e1d1bd;
+    font-weight: 800;
+}
+.card span {
+    font-weight: bold;
+}
+#third {
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#third h2{
+    color: #dfcbaa;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#third p{
+    color: #dfcbaa;
+    font-size: 15px;
+    font-style: italic;
+}
+#third .text1 {
+    width: 40%;
+    display: inline-block;
+    padding-top: 200px;
+}
+#third span{
+    font-size: 20px;
+
+}
+#fourth{
+    padding: 20px 60px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#fourth .left {
+    position: relative;
+    width: 60%;
+}
+
+#fourth .right {
+    width: 40%;
+}
+#fourth .right img{
+    width: 400px;
+    height: 400px;
+}
+#fourth .left .chan1{
+    position: absolute;
+    top: 45px;
+    left: -18px;
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+}
+#fourth .left .chan2{
+    position: absolute;
+    top: 44px;
+    left: 105px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}
+#fourth .left h1{
+    font-size: 50px;
+
+}
+#fourth .left p{
+    margin-top: 20px;
+    font-style: italic;
+}
+#fourth .right #bir {
+    color: #887358;
+    position: absolute;
+    font-size: 50px;
+    padding: 10px;   
+    left: 5px;
+    top: 45%;
+} 
+#fourth .right #iki {
+    color: #887358;
+    position: absolute;
+    font-size: 50px;
+    padding: 10px;
+    right: 10px;
+    top: 45%;
+} 
+#fourth .right{
+    position: relative;
+}
